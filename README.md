@@ -49,7 +49,7 @@ Add the following import statements:
 ```javascript
 import 'core-ui-components/dist/webComponents/core-ui.js'
 ```
-You can now use the components in your application. Each component is prefixed with `core-`:
+You can now use the components in your application. Each component is prefixed with `core-ui-`:
 
 #### Example:
 ```html
@@ -60,8 +60,8 @@ You can now use the components in your application. Each component is prefixed w
 
 Add the following import statements:
 ```javascript
-import { HelloWorld } from 'core-coupon-components/dist/vueComponents/core.umd' // TIP: Only import the components that you need
-import 'core-coupon-components/dist/vueComponents/core.css' // imports the css styles
+import { HelloWorld } from 'core-coupon-components/dist/vueComponents/core-ui.umd' // TIP: Only import the components that you need
+import 'core-coupon-components/dist/vueComponents/core-ui.css' // imports the css styles
 ```
 
 ## Styling
