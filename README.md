@@ -73,5 +73,10 @@ Styles can be overridden in main application
 }
 ```
 
+### Dynamic styling example
+```javascript
+document.querySelector('body').style.setProperty('--hello-world-msg-color', 'blue');
+```
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
