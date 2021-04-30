@@ -11,13 +11,13 @@ npm install
 npm run serve
 ```
 
-## Creating amd compiling new components
+## Creating and compiling new components
 
 We you are done creating a new component make sure to add the new component to the `index.js` file
 
 ### Example
 ```javascript
-export { default as HelloWorld } from '@/components/HelloWorld'
+export { default as HelloWorld } from '@/components/HelloWorld/HelloWorld'
 ```
 
 Run the following command to build the components
